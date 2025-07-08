@@ -13,6 +13,22 @@ if page == "🏠 Home":
     st.markdown("<p style='text-align: center; font-size: 18px;'>A trusted community for urgent parcel delivery using the help of nearby travelers.</p>", unsafe_allow_html=True)
 
     st.markdown("---")
+       
+    st.markdown("### 📘 About")
+    st.markdown("""
+    <p style='text-align: justify; font-size: 16px;'>
+        <strong>HelpXpress</strong> is a community-driven platform that enables individuals to help each other by 
+        delivering urgent parcels during their own travel. The idea is to create a network of trust where people can 
+        share resources, reduce delivery delays, and make logistics more human and social. Kailash Kothari.
+    </p>
+    """, unsafe_allow_html=True)
+
+    st.markdown("### 🙏 Acknowledgment")
+    st.markdown("""
+    <p style='text-align: justify; font-size: 16px;'>
+        We thank all open-source contributors, community supporters, and early users of HelpXpress who made this initiative possible.
+    </p>
+    """, unsafe_allow_html=True)
 
     col1, col2 = st.columns(2)
 
